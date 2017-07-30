@@ -3,12 +3,9 @@
   - [安装git](zh-cn/Git教程/安装git/安装git.md)
   - [创建版本库](zh-cn/Git教程/创建版本库/创建版本库.md)
   - [时光机穿梭](zh-cn/Git教程/时光机穿梭/时光机穿梭.md)
-  - [远程仓库](zh-cn/cover.md)
-  - [分支管理](zh-cn/cover.md)
-  - [标签管理](zh-cn/cover.md)
-  - [使用GitHub](zh-cn/cover.md)
-  - [自定义Git](zh-cn/cover.md)
-
+  - [远程仓库](zh-cn/Git教程/远程仓库/远程仓库.md)
+  - [分支管理](zh-cn/Git教程/分支管理/分支管理.md)
+  - [github和gitlab同时登陆](zh-cn/Git教程/github和gitlab同时登陆/github和gitlab同时登陆.md)
 
 - 定制化
   - [配置项](zh-cn/configuration.md)
