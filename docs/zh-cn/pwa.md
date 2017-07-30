@@ -1,3 +1,14 @@
+# 离线模式
+
+[Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)(PWA) 是一项融合 Web 和 Native 应用各项优点的解决方案。我们可以利用其支持离线功能的特点，让我们的网站可以在信号差或者离线状态下正常运行。
+要使用它也非常容易。
+
+## 创建 serviceWorker
+这里已经整理好了一份代码，你只需要在网站根目录下创建一个 `sw.js` 文件，并粘贴下面的代码。
+
+*sw.js*
+
+```js
 /* ===========================================================
  * docsify sw.js
  * ===========================================================
@@ -81,3 +92,22 @@ self.addEventListener('fetch', event => {
     )
   }
 })
+```
+
+## 注册
+
+现在，到 `index.html` 里注册它。这个功能只能工作在一些现代浏览器上，所以我们需要加个判断。
+
+*index.html*
+
+```html
+<script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
+```
+
+## 体验一下
+
+发布你的网站，并开始享受离线模式的魔力吧！:ghost: 当然你现在看到的 docsify 的文档网站已经支持离线模式了，你可以关掉 Wi-Fi 体验一下。

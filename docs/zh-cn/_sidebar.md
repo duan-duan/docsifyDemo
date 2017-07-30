@@ -1,14 +1,29 @@
+- Git教程
+  - [git简介](zh-cn/Git教程/Git简介/Git的诞生.md)
+  - [安装git](zh-cn/Git教程/安装git/安装git.md)
+  - [创建版本库](zh-cn/Git教程/创建版本库/创建版本库.md)
+  - [时光机穿梭](zh-cn/Git教程/时光机穿梭/时光机穿梭.md)
+  - [远程仓库](zh-cn/cover.md)
+  - [分支管理](zh-cn/cover.md)
+  - [标签管理](zh-cn/cover.md)
+  - [使用GitHub](zh-cn/cover.md)
+  - [自定义Git](zh-cn/cover.md)
+
+
+- 定制化
+  - [配置项](zh-cn/configuration.md)
+  - [主题](zh-cn/themes.md)
+  - [插件列表](zh-cn/plugins.md)
+  - [开发插件](zh-cn/write-a-plugin.md)
+  - [Markdown 配置](zh-cn/markdown.md)
+  - [代码高亮](zh-cn/language-highlight.md)
+
 - 指南
-  - [基础操作](/zh-cn/getting-started)
-  - [内置快捷键](/zh-cn/key-bindings)
-  - [常见问题](/zh-cn/faq)
-  - [故障排除](/zh-cn/troubleshooting)
-- 进阶
-  - [高级技巧](/zh-cn/advanced-tips)
-  - [高级设置](/zh-cn/advanced-configs)
-  - [命令行选项](/zh-cn/command-line-options)
-- 更多
-  - [官网](https://zh.snipaste.com)
-  - [下载](/zh-cn/download)
-  - [帮助翻译](/zh-cn/translation)
-  - [更新日志](/zh-cn/changelog)
+ - [部署](zh-cn/deploy.md)
+ - [文档助手](zh-cn/helpers.md)
+ - [兼容 Vue](zh-cn/vue.md)
+ - [CDN](zh-cn/cdn.md)
+ - [离线模式(PWA)](zh-cn/pwa.md)
+  - [服务端渲染 (SSR)](zh-cn/ssr.md)
+
+- [Changelog](zh-cn/changelog.md)
